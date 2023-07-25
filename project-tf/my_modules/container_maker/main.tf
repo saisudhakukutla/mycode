@@ -25,7 +25,7 @@ resource "docker_container" "nginx" {
   name  = var.container_name          # mapped in "my_modules/container_maker/variables.tf", but we can override those values when we call the module from "main.tf"
   ports {
     internal = 80
-    external = var.external_port      # mapped in "my_modules/container_maker/variables.tf", but we can override those values when we call the module from "main.tf"
+          # mapped in "my_modules/container_maker/variables.tf", but we can override those values when we call the module from "main.tf"
   }
 }
 

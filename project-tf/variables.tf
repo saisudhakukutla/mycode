@@ -8,3 +8,8 @@ variable "container_name_from_root" {
     default = "defaultContainerNamefromRootModule"   # override this if you want to change the name used by the child module
 }
 
+variable "external_port_from_root" {
+    description = "port number to apply"
+    type = string
+    default = "2224"   # override this if you want to change the name used by the child module
+}
