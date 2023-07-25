@@ -10,5 +10,10 @@ variable "container_name" {
 }
 
 # used in "my_modules/container_maker/main.tf" and may be remapped in the root "main.tf"
-
+# used in "my_modules/container_maker/main.tf" and may be remapped in the root "main.tf"
+variable "external_port" {
+  description = "External port on the container"
+  type        = number
+  default     = 2224
+}
 
