@@ -18,10 +18,10 @@ provider "null" {
 
 /* a list of local variables */
 locals {
-  avengers = {"ironman"= "hero"
-              "captain america"= "hero"
-              "thanos"= "villain"
-              "venom"= "anti-hero"
+  avengers = {"ironman"= 1
+              "captain america"= "true"
+              "thanos"= 3.2
+              "venom"= 4
              }
 }
 
